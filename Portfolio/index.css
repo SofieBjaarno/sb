@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/baggrund2.jpg);
+}
+
+.flexcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+/*Forside*/
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-top: -470px;
+  height: 60px;
+  order: 1;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 52%;
+  padding-top: 40%;
+  position: relative;
+}
+
+.right {
+  padding-left: 50px;
+  width: 35%;
+  height: 35%;
+  position: relative;
+  margin-top: 30px;
+}
+
+.facebook {
+  width: 40px;
+  height: 40px;
+  margin-top: 300px;
+  position: relative;
+  margin-left: 10%;
+}
+
+.linkedin {
+  width: 40px;
+  height: 40px;
+  margin-top: 300px;
+  position: relative;
+  margin-left: 15%;
+}
+
+li {
+  float: left;
+  border-right: 1px solid black;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  padding: 16px;
+  38px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}
+
+li a:hover:not(.active) {
+  background-color: white;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  padding-left: 45px;
+}
+
+.active {
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 30px;
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 100px;
+  height: 40px;
+  margin-top: 350px;
+  position: relative;
+  margin-left: -4%;
+}
+
+.instagram {
+  width: 40px;
+  height: 40px;
+  margin-top: 300px;
+  position: relative;
+  margin-left: 13%;
+}
+
+p2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  weight: 40px;
+  height: 40px;
+  margin-top: 350px;
+  position: relative;
+  margin-left: -4%;
+}
+
+.mail {
+  width: 40px;
+  height: 40px;
+  margin-top: 350px;
+  position: relative;
+  margin-left: 15%;
+}
+
+p3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 100px;
+  height: 40px;
+  margin-top: 350px;
+  position: relative;
+  margin-left: -4%;
+}
+
+/*Contact side*/
+input[type=text], select, textarea {
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 4px;/ box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=submit] {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: #ffe6cc;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ffd9b3;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #FFF9E9;
+  padding: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-top: 18%;
+}
+
+/*About side*/
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 250px;
+  font-size: 210%;
+}
+
+p4 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 110%;
+  line-height: 2;
+}
+
+p5 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 110%;
+  line-height: 2;
+}
+
+/*Work side*/
+p6 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 100px;
+  height: 40px;
+  margin-top: 200px;
+  position: relative;
+  margin-left: 19%;
+  font-size: 20px;
+}
+
+p7 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 100px;
+  height: 40px;
+  margin-top: 200px;
+  position: relative;
+  margin-left: 19%;
+  font-size: 20px;
+}
+
+p8 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 100px;
+  height: 40px;
+  margin-top: 200px;
+  position: relative;
+  margin-left: 19%;
+  font-size: 20px;
+}
